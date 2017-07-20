@@ -9,6 +9,10 @@ Flask-WTF
 flask-mongoengine
 Flask-markdown
 
+gunicorn
+futures==2.1.6
+trollius==1.0.1
+
 
 
 
