@@ -24,39 +24,47 @@ html, body {
 }
 
 body {
-  background: url(http://37.media.tumblr.com/f6c67ec2821a91051e4175f8a102e1e2/tumblr_n6rzpcsMk41st5lhmo1_1280.jpg) 50% 50%/cover;
+  background: url('/static/images/background3.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #info {
   display: table;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0);
   height: 100%;
   width: 100%;
 }
 #info #info-content {
   display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  text-transform: uppercase;
+  vertical-align: center;
+  text-align: right;
+  /*text-transform: uppercase;*/
   color: #fff;
   font-size: 12px;
+  padding: 50px 50px 50px 50px ;
 }
 #info #info-content h1 {
   color: #fff;
   border: 3px solid #fff;
   text-align: center;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0);
   font-size: 22px;
   font-weight: normal;
-  padding: 20px;
+  padding: 15px;
   margin: 10px;
   display: inline-block;
 }
 #info #info-content h1 strong {
   display: block;
   font-size: 26px;
+}
+#info #info-content p {
+  padding: 0px 50px 0px 0px ;
 }

@@ -1,6 +1,14 @@
 Flask
+Flask-Login
+Werkzeug
+itsdangerous
+Flask-Mail
+Flask-Bootstrap
 Flask-Script
 Flask-WTF
 flask-mongoengine
 Flask-markdown
+
+
+
 
