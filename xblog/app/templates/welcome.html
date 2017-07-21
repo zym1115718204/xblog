@@ -1,21 +1,23 @@
 <html>
-  <head>
-    {% if title %}
-    <title>{{ title }} - 月明</title>
-    {% else %}
-    <title>月明</title>
-    {% endif %}
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/welcome.css') }}">
+    <head>
+        {% if title %}
+        <title>{{ title }} - 月明</title>
+        {% else %}
+        <title>月明</title>
+        {% endif %}
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/welcome.css') }}">
+        <script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/welcome.js') }}"></script>
 </head>
-<body>
+<body style="background: url('/static/images/{{ background_img }}.jpg') no-repeat center center fixed;">
 <div id="wrapper">
-  <div id="info">
-    <div id="info-content">
-      <h1><strong> L'emmerdeur</strong>月  明</h1>
-      <p>月明落凝玉, 盈盈浣我心 </p>
+    <div id="info">
+        <div id="info-content">
+            <h1><strong> L'emmerdeur</strong>月  明</h1>
+            <p>月明落凝玉, 盈盈浣我心 </p>
+        </div>
     </div>
-  </div>
 </div>
 </body>
 </html>

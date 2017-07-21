@@ -22,5 +22,10 @@ def home():
 
 @app.route('/')
 def index():
-    return render_template("welcome.html", title="Welcome")
+
+    import random
+    img_no = random.randint(1, 3)
+    background_img = "background{0}".format(img_no)
+
+    return render_template("welcome.html", title="Welcome", background_img=background_img)
 
