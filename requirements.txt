@@ -1,19 +1,29 @@
-Flask
 Flask-Login
-Werkzeug
-itsdangerous
-Flask-Mail
-Flask-Bootstrap
-Flask-Script
-Flask-WTF
 flask-mongoengine
 Flask-markdown
+
+Flask
+Flask-Bootstrap
+Flask-Mail
+Flask-Migrate
+Flask-Moment
+Flask-SQLAlchemy
+Flask-Script
+Flask-WTF
+Jinja2
+Mako
+MarkupSafe
+SQLAlchemy
+WTForms
+Werkzeug
+alembic
+blinker
+itsdangerous
+
 
 gunicorn
 gevent
 futures==2.1.6
 trollius==1.0.1
-
-
 
 
